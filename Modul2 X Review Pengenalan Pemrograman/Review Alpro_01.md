@@ -682,7 +682,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_12.png]]
+>  ![](output/outputSoal_12.png)
 
 Program di atas digunakan untuk mencari faktor dari sebuah bilangan dan menentukan apakah bilangan tersebut adalah bilangan prima. Program dimulai dengan mendeklarasikan variabel b untuk menyimpan input bilangan dari pengguna. Setelah itu, program masuk ke proses perulangan menggunakan for, di mana i akan berjalan dari 1 hingga b.Di dalam perulangan, terdapat percabangan if yang mengecek apakah b habis dibagi i. Jika iya, maka i akan dicetak sebagai faktor dan nilai count akan bertambah satu untuk menghitung jumlah faktor yang ditemukan. Setelah proses perulangan selesai, program masuk ke logika pengecekan bilangan prima.Di bagian ini, program mengecek apakah jumlah faktor yang ditemukan (count) adalah 2. Jika iya, maka bilangan tersebut dianggap sebagai bilangan prima dan variabel isPrima diatur ke true. Jika tidak, maka bilangan tersebut bukan prima. Terakhir, program mencetak hasil pengecekan bilangan prima berdasarkan nilai isPrima.
 
