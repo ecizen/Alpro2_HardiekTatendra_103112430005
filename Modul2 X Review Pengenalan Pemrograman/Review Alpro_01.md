@@ -91,7 +91,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_2.png]]
+>  ![](output/outputSoal_2.png)
 
 Code diatas adalah program cek apakah tahun tersebut kabisat atau bukan, kita bedah code nya nah disini saya mendekelrasikan variable dengan tipe data boolean agar nanti bisa menentukan nilai kebenaran apakah true yang artinya kabisat dan false bukan, kemudian variable tahun dengan tipe data integer yang dimana variable inilah yang nanti akan menamoung nilai dari inputan user. Masuk ke algoritma nya disini kita bisa lihat syarat dikatakan bahwa tahun tersebut kabisat yaitu tahun habis di bagi 4 dan tidak habis dibagi 100 nah kita coba bedah disini jadi misal tahun tersebut habis di bagi 4 dan habis dibagi 100 maka kondisi ini true atau  tahun mod 400 = 0 ini juga true.
 
@@ -142,7 +142,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_3.png]]
+> ![](output/outputSoal_3.png)
 
 Code diatas adalah code untuk mencari luas dan volume dimana program diatas memiliki 4 variable diantara nya luasBola, volumeBola yang dimana untuk inialisasi rumus nya , phi ini merupakan diameter nya dan ditetapkan nilai  3.1415926535, kemudian ada variable r untuk menerima input user nah kita masuk ke inialisasi nilai dimana phi tadi kita isi dengan 3,14 , kemudian luasBola, dan keliling bola kita masukan rumus yg sudah ada di soal, nah kenapa kita gunakan 4.0 dan 3.0 di rumus volume karena kita menggunakan tipe data float sehingga tidak ada pembulatan seperti tipe data integer sehingga hasilnya lebih akurat, terkhir output kita gunakan %.4f untuk menampilkan output hanya 4 angka dibelakang koma
 ### Soal 4
@@ -181,7 +181,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_4.png]]
+>  ![](output/outputSoal_4.png)
 
 Code di atas adalah program untuk mengonversi suhu dari Celcius ke Reamur, Fahrenheit, dan Kelvin. Jadi, pertama kita deklarasikan beberapa variabel, yaitu reamur, celcius, kelvin, farenheit
 dengan tipe data float, kemudian kita inialisasi variable reamur, farenheit dan kelvin sesuai rumusnya, kemudian kita print variable tersebut nah dibagian kelvin kita berikan batas dibelakang koma tidak ada angka karena di rumusnya ada tipe data float
@@ -219,7 +219,7 @@ func main(){
 ```
 
 > Output
-> ![[outputSoal_5.png]]
+>  ![](output/outputSoal_5.png)
 
 Code diatas adalah program ascii yg dimana awalnya kita punya lima variabel `c1` sampai `c5` yang bertipe `byte`, terus ada `b1`, `b2`, `b3` yang pakai `int`. Nah, yang pertama dilakukan program ini itu baca lima karakter lewat `fmt.Scan()`, jadi misalnya kita masukin `hello`, masing-masing huruf bakal masuk ke variabel `c1` sampai `c5`. kemduain ada tiga `fmt.Scanf()` yang baca input lagi, tapi formatnya agak unik. Dua pertama pakai `"%c"`, artinya dia bakal baca satu karakter masing-masing buat `b1` dan `b2`. Terus ada `"%c"` buat `b3`
 
@@ -272,7 +272,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_6.png]]
+>  ![](output/outputSoal_6.png)
 
 Program diatas adalah program untuk mengecek apakah inputan sesuai dalam 5 kali percobaan jika iya true jika tidak false, program dimulai dari mendeklerasikan variable warna1-4 untuk inputan user nantinya kemudian mendeklerasikan variable berhasil dengan nilai awal true, next kita punya variable i untuk nilai awal 0 yg akan kita gunakan di perulangan nanti nah di for kita kasih kondisi jika i < 5 maka program akan terus dijalankan, masuk di blok for kita membuat inputan warna, selanjutnya ada if yg dimana if ini digunakan untuk mengecek jika warna nya tidak sesua maka berhasil akan false, selanjutnya i++ maka i tadi yg mulainya 0 akan terus bertambah sehingga mempeengaruhi perulangan sehinga misal i nya lebih dari 5 maka akan berhenti programnya, kemudian nilai hasil blok perulangan tadi kita terima di kondisi if berikutnya apakah false atau true
 
@@ -355,7 +355,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_7.png]]
+>  ![](output/outputSoal_7.png)
 
 Program di atas digunakan untuk menerima input jumlah bunga dari user, jika inputan `n` adalah 0 maka program langsung menampilkan pita kosong dan jumlah bunga 0. Program dimulai dengan mendeklarasikan variabel `n` untuk jumlah bunga, pita sebagai tempat menyimpan bunga dalam bentuk string, `bunga` untuk input user, dan `count` sebagai penghitung jumlah bunga.
 Selanjutnya, program meminta input `n`. Jika `n <= 0`, program langsung menampilkan hasil kosong dan selesai. Jika `n > 0`, program masuk ke perulangan `for` yang berjalan `n` kali untuk meminta input bunga. Jika user mengetik `"SELESAI"`, program langsung berhenti lebih awal.
@@ -431,7 +431,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_8.png]]
+>  ![](output/outputSoal_8.png)
 
 Program diatas digunakan untuk cek apakah pak akan oleng atau tidak , pertama saya mendeklerasikan variable '**kantongKanan**' , '**kantongKiri**' untuk menampung inputan **user** **totalBerat**' untuk menghitung berat ,kemudian masuk ke for tanpa kondisi jadi disini kita melakukan aksi yg dimana user menginputkan kantong kanan dan kiri, kemudian inputan user tadi akan melakukan operasi disini  **totalBerat = totalBerat + kantongKanan + kantongKiri**, yang bakal digunakan nanti untuk menghitung totalBerat, selanjutnya kita saya dekelrasikan selisih , masuk ke if  dengan kondisi kantong kanan > kantong kiri selisihnya  = kantong kanan - kantong kiri dan else nya itu sebaliknya, kemudian saya buat if untuk menentukan nilai selsih apakah salah satu kantong lebih dari 9kg kalau iya berarti true kalau tidak false. Masuk ke code terakhir kita panggil totalBerat tadi apakah lebih dari 150kg jika ya maka program akan berhenti
 
@@ -488,7 +488,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_9_new.png]]
+>  ![](output/outputSoal_9.png)
 
 Program di atas digunakan untuk menghitung nilai aproksimasi akar 2 menggunakan metode deret tak hingga. Pertama, saya deklarasikan variabel K, yang nantinya bakal menampung inputan user sebagai jumlah iterasi atau banyaknya perhitungan dalam deret. Setelah itu, saya inisialisasi result dengan nilai 1.0, karena nanti bakal dikalikan dalam perhitungan.Masuk ke looping for, di sini saya pakai variabel k yang jalan dari 0 sampai kurang dari K. Nah, di setiap iterasi, saya hitung nilai n yang rumusnya 4k + 2, lalu d yang merupakan hasil kali dari (4k + 1) dan (4k + 3). Kedua nilai ini kemudian digunakan untuk memperbarui result, di mana setiap iterasi result bakal dikalikan dengan (n * n) / d.
 
@@ -550,7 +550,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_10.png]]
+>  ![](output/outputSoal_10.png)
 
 Program di atas digunakan untuk menghitung totalBiaya, program dimulai dari mendeklerasikan variable  kemudian masuk ke input user dalam gram ,  beratKg kita bagi dengan 1000 yang dimana nanti hasilnya dikali 10.000, kemudian gram kita mod untuk mendapat sisa gram nya, kemudian kita masuk logika if  dimana program bakal cek dulu apakah berat dalam kg melebihi 10kg kalau iya tidak ada biaya tambahan, jika kurang maka akan menjalankan blok kode else nah di else terdapat if jika berat gram lebih besar sama dengan 500 maka akan ada tambahan 5 rupiah per gram nya jika tidak terpenuhi atau gram kurang dari 500 maka biaya tambahanya 15 rupiah.
 
@@ -624,7 +624,7 @@ func main() {
 ```
 
 > Output
-> ![[outputSoal_11.png]]
+>  ![](output/outputSoal_11.png)
 
 A. Harusnya program diatas mengeluarkan output 80.1 itu adalah a karena disini program dari study case menggunakan if saja disini membuatnya ambigu jadi progam membaca if terakhir yg terpenhui kenpapa tidak e karena kondisi e itu kurang dari sedangkan kalau kita lihat d saja d > 40 jadi terpenuhi begitu pula dengan kode lainya setelha kode saya perbaiki baru betul output nya.
 B. Kesalahan program nya itu kita lihat paling simpel disitu output nya untuk predikat mengunakan nam yg jelas jelas float sedangakan nam di if tersebut dipaksa menmpung nam = "predikat" atau string, kesalahan kedua yaitu if nya terlalu ambigu seharusnya kita perlu kasih kondisi batasan masing masing yg sesuai
