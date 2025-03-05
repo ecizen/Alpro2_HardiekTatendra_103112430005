@@ -54,7 +54,7 @@ func main() {
 ```
 
 > Output
-> ![[outputsoal_1.png]]
+> ![[output/outputsoal_1.png]]
 
 
 Penjelasan code diatas kenapa output awal dan akhir beda, pertama kita review dari variable nya itu ada satu, dua , tiga dan temp. variable satu,dua dan tiga menerima input user sehinga ketika masuk ke print output satu + dua + tiga maka akan menghasilkan output yang urut sesuai inputanya sementara next baris disini ada perubahan nilai variable yang dimana temp disini mengambil inputan satu, satu = inputan dua , dua inputan 3 dan tiga di sini mengambil temp yang memiliki nilai dari inputan satu sehingga output akhir berbeda
