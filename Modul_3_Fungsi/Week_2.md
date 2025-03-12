@@ -88,7 +88,7 @@ func main() {
 ```
 
 > Output
-> ![[soal1.png]]
+> ![](output/soal1.png)
 
 
 Program diatas  bertujuan untuk menghitung permutasi dan kombinasi dengan inputan user. pertama kita mendefinisikan function factorial dengan parameter n dengan tipe data integer, kemudian function ini mengembalikan tipe data integer. Masuk ke if disini jika n = 1 atau n = 0 maka akan mengembalikan 1, sesuai dengan aturan faktorial 0! atau 1! sama dengan 1. Result result disini digunakan untuk menyimpan nilai dan disi nilai awal 1 , masuk ke loop disini loop dimulai dari 2 hingga n setiap literasi result akan dikali dengan i. Function permutasi disini memiliki parameter n dan r dengan tipe data integer, kemudian return disini function faktroial digunakan yg dimana factorial/ faktroial(n-r), sama halnya kombinasi hanya beda di return saja. Lanjut ke fungsi utama kita memiliki variable a b c dan d dengan tipe data int kemudian ada input untuk user nah kemudian kita bisa inialisasi lagi variabe permutasi1 ,permutasi 2, kombinasi1 dan kombinasi 2 yg dimana ini nantinya digunakan untuk mencari 2 permutasi dan 2 kombinasi ,kemudian yg terakhir ada print untuk menampilkan output
@@ -173,7 +173,7 @@ func main() {
 ```
 
 > Output
-> ![[soal2.png]]
+> ![](output/soal2.png)
 
 Penjelasan code diatas, pertama kita punya 3 function f(x), g(x,) ,h(x)  dengan parameter x tipe data integer yang dimana mengembalikan nilai nah return ini kita bisa masukan ketiga rumus nya yg dimana f(x) = x^2, g(x) = x- 2, dan h(x) = x + 1. lanjut kita punya function fogoh mengembalikan nilai h(x) =x+1  kemudian ke g(h(x)) =(x + 1) - 2 = x - 1 dan terakhir f(g(h(x))) = (x - 1)², lanjut function gohof(x) yg dimana mengembalikan nilai return pertama f(x) = x²,  kemudian h(f(x)) = (x²) + 1 = x² + 1, dan terakhir g(h(f(x))) = (x² + 1) - 2 = x² - 1, lanjut function terakhir hofog(x) mengembalikan nilai g(x) = x - 2 kemudian (x - 2)², dan terakhir h(f(g(x))) = (x - 2)² + 1. Masuk ke fungsi utama atau main disini kita dekelrasikan variable x, y,z dengan tipe data integer yg digunakan untuk menampung inputan user, dan terakhir kita panggil function fogoh(x), gohof(x) dan hofog(x) untuk di print
 
@@ -258,7 +258,7 @@ func main() {
 ```
 
 > Output
-> ![[soal3.png]]
+> ![](output/soal3.png)
 
 Kode di atas digunakan untuk menentukan posisi sebuah titik terhadap dua lingkaran berdasarkan koordinat pusat dan radius masing-masing lingkaran. Fungsi jarak(a, b, c, d) digunakan untuk menghitung jarak antara dua titik dalam koordinat kartesian dengan rumus Euclidean distance, yaitu akar kuadrat dari jumlah kuadrat selisih masing-masing koordinat. Kemudian, fungsi didalam(cx, cy, r, x, y) digunakan untuk mengecek apakah titik (x, y) berada di dalam lingkaran yang memiliki pusat (cx, cy) dan radius r, dengan cara membandingkan jaraknya terhadap radius lingkaran.Pada fungsi main(), pertama-tama dideklarasikan variabel untuk menyimpan input koordinat pusat dan radius kedua lingkaran, serta titik yang akan diperiksa. Setelah membaca input dari pengguna, program memeriksa apakah titik tersebut berada di dalam lingkaran pertama, lingkaran kedua, atau keduanya menggunakan fungsi didalam(). Berdasarkan hasil pengecekan, program kemudian mencetak output yang menyatakan apakah titik berada di dalam lingkaran pertama dan kedua, hanya di lingkaran pertama, hanya di lingkaran kedua, atau di luar kedua lingkaran.
 
