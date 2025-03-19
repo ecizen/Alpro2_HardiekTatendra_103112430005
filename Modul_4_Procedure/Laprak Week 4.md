@@ -96,7 +96,7 @@ func main() {
 ```
 
 > Output
-> ![[output1.png]]
+> ![](output1.png)
 
 
 Program di atas bertujuan untuk menghitung permutasi dan kombinasi berdasarkan inputan dari pengguna.
@@ -279,7 +279,7 @@ func main() {
 ```
 
 > Output
-> ![[output2.png]]
+> ![](output2.png)
 
 Penjelasan code di atas, pertama kita memiliki function hitungSkor yang memiliki 8 parameter dengan tipe data integer, yang digunakan untuk menghitung jumlah soal yang berhasil diselesaikan, skor yang diperoleh, dan total waktu yang dihabiskan oleh peserta.
 Masuk ke dalam function hitungSkor, kita mendeklarasikan tiga variabel yaitu soal, skor, dan totalWaktu dengan nilai awal 0. Selanjutnya, kita melakukan pengecekan untuk setiap soal dengan kondisi jika waktu ≤ 300, maka soal dianggap dikerjakan. Jika memenuhi kondisi, maka variabel soal bertambah 1 (menandakan soal dikerjakan), variabel skor bertambah sesuai dengan rumus 300 - waktu pengerjaan, dan variabel totalWaktu ditambahkan dengan waktu pengerjaan soal tersebut. Pengecekan ini dilakukan sebanyak 8 kali untuk masing-masing soal. Jika soal memiliki waktu lebih dari 300 menit, maka soal tersebut dianggap tidak dikerjakan. Setelah semua soal dicek, function ini akan mengembalikan nilai soal, skor, dan total waktu ke pemanggilnya.
@@ -334,7 +334,7 @@ func main() {
 ```
 
 > Output
-> ![[output3.png]]
+> ![](output3.png)
 
 Pertama, kita memiliki procedure cetakDeret(n int) yang digunakan untuk mencetak deret sesuai aturan yang diberikan. Procedure ini menerima satu parameter formal, yaitu n dengan tipe data integer. Masuk ke dalam procedure, kita menggunakan perulangan while dengan kondisi n > 1. Di dalam perulangan ini, kita mencetak nilai n diikuti dengan spasi. Setelah itu, kita mengecek apakah nilai n genap atau ganjil. Jika n genap, maka n dibagi 2 (n /= 2). Jika n ganjil, maka n dihitung dengan rumus 3n + 1. Perulangan ini akan terus berjalan hingga nilai n menjadi 1. Setelah keluar dari loop, angka 1 dicetak sebagai angka terakhir. Masuk ke fungsi main(), kita mendeklarasikan variabel n dengan tipe data integer yang digunakan untuk menyimpan input dari pengguna. Setelah itu, program membaca input menggunakan fmt.Scan(&n). Kemudian, kita memanggil procedure cetakDeret(n) untuk mencetak hasil
 
