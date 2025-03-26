@@ -40,7 +40,7 @@ func main() {
 ```
 
 > Output
-> ![[Modul_5_Rekrusif/output/soal1.png]]
+>  ![](output/output1.png)
 
 Program di atas  adalah program untuk mencari deret fibonachi, pertama kita mulai dari funch main yang dimana disitu kita deklerasikan variable n sebagai integer, kemudian meminta input user dan di print untuk menampilkan output fibonaci dengan memangil fibonaci yang dimana parameter disitu n , masuk ke function fibonaci yang dimana memiliki parameter n integer dan  mengembalikan nilai integer, masuk ke if yang dimana program melakukan pengecekan  misal n = 0 maka fungsi mengembalikan 0 dan misal n = 1 maka mengembalikan 1 nah ini merupakan base case nya. Lanjut ke return kita panggil fungsi fibonaci nya sendiri (rekrusif) kan tadi jika n = 1 maka mengembalikan 0 jika kondisi tersebut tidak terpenuhi misalkan n >= 2 maka program akan masuk ke dua fibonachi ( fibonaci(n-1) dan fibonaci(n-2)) kemudian di jumlahkan 
 
