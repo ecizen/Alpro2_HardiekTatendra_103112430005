@@ -110,7 +110,7 @@ func main() {
 ```
 
 > Output
-> ![[Modul_7_Array/output/soal1.png]]
+> ![](output/soal1.png)
 
 Program di atas digunakan untuk mengecek apakah sebuah titik berada di dalam dua lingkaran atau tidak. Pertama, program mendefinisikan dua buah struktur data yaitu Point yang merepresentasikan koordinat x dan y dari suatu titik, serta lingkaran yang memiliki titik pusat (center) dan jari-jari (radius). Lalu, ada fungsi isInside yang digunakan untuk menentukan apakah suatu titik berada di dalam sebuah lingkaran. Caranya dengan menghitung jarak antara titik tersebut dengan pusat lingkaran menggunakan rumus jarak kuadrat, yaitu (x2 - x1)² + (y2 - y1)², lalu dibandingkan dengan kuadrat dari radius lingkaran. Jika jarak kuadrat ini lebih kecil atau sama dengan kuadrat radius, maka titik dianggap berada di dalam lingkaran.Kemudian di dalam fungsi main, program meminta masukan dari pengguna untuk koordinat dan jari-jari dari dua buah lingkaran, serta satu titik yang akan dicek. Setelah itu, dibuat dua buah lingkaran dan satu titik berdasarkan input tersebut. Program lalu mengecek apakah titik berada di dalam masing-masing lingkaran dengan memanggil fungsi isInside. Hasil dari pengecekan tersebut akan menentukan output dari program, apakah titik tersebut berada di dalam kedua lingkaran, hanya di salah satu lingkaran, atau di luar keduanya. Program ini berguna untuk mengevaluasi posisi titik terhadap dua buah lingkaran dalam bidang dua dimensi.
 
@@ -306,7 +306,7 @@ func main() {
 ```
 
 > Output
-> ![[Modul_7_Array/output/soal2.png]]
+> ![](output/soal2.png)
 
 Penjelasan program diatas yang pertama  kita deklerasikan array  dengan total index 11 tipe data string, selanjutnya masuk ke soal 1 dimana saya punya program untuk menampilkan array nya dengan cara cukup kita panggil variable nya di print, lanjut ke b dimana  gunakan perulangan kita definisikan i dimulai dari 1 kenapa 1? karena 1 adalah bilangan ganjil , dan i nanti (i + 2) jadi nanti jadinya 1 + 2 = 3, 3 + 2 =  5 dst nah ini bilangan ganjil, lanjut kita ke c dimana ini hampir sama namun i dimulai dari 0 karena dari printahnya 0 kita asumsikan genap.d kita gunakan untuk  melipatkan index dengan x atau inputan user  dimana i nanti mod dengan  x . e menghapus index  nah kalau di javascript dulu saya ada delete nya namun di go ini tidak ada jadi saya mengggunakan, pertama kita buat input untuk user ingin menghapus yang mana ,lanjut ke if, if melakukan pengecekan agar indeks yang dimasukkan valid, yaitu tidak kurang dari 0 tidak lebih atau sama dengan panjang array (karena indeks maksimum = len - 1) kalau  tidak valid masuk ke else, lanjut  ke forr nya Melakukan looping ke seluruh elemen array bilangan. Setiap elemen dicek: Jika indeks (`i`) bukan indeks yang ingin dihapus  tambahkan (append) ke new Bilangan
 Jika sama dengan indeks yang ingin dihapus dilewati, artinya tidak ditambahkan. lanjut . f dimana kita diprintah untuk mencari rata rata untuk alur nya pertama kita dekelrasikan total, lanjut ada forr yang digunakan untuk melakukan looping ke semua elemen bilangan, val adalah nilai tiap elemen array , setiap elemen ditambahkan ke total misal {1,2,3}(total = 1 + 2 +3) yang terakhir total element kita bagi dengan toal index nya .g ini, program menghitung standar devias idari nilai-nilai yang ada di dalam array bilangan. Pertama-tama, program menggunakan nilai rata-rata (rata) yang telah dihitung sebelumnya. Kemudian, program memulai sebuah variabel sum bertipe float64 untuk menyimpan total kuadrat selisih setiap elemen dengan rata-rata. Proses iterasi dilakukan dengan perulangan for, di mana setiap nilai dalam array bilangan dikonversi ke tipe float64, dikurangkan dengan rata, lalu hasil selisihnya dikuadratkan menggunakan fungsi math.Pow. Nilai kuadrat ini kemudian ditambahkan ke dalam sum. Setelah semua nilai diproses, nilai  akar kuadrat dari varians dihitung menggunakan math.Sqrt, dan hasilnya disimpan dalam variabel sd sebagai nilai standar deviasi.h dari program digunakan untuk menghitung frekuensi kemunculan suatu bilangan tertentu di dalam array bilangan. Pertama-tama, program meminta pengguna untuk memasukkan angka yang ingin dicari jumlah kemunculannya, lalu menyimpannya dalam variabel cari. Setelah itu, sebuah variabel frek diinisialisasi dengan nilai 0, yang berfungsi sebagai penghitung. Program kemudian melakukan perulangan for untuk memeriksa setiap elemen dalam array bilangan. Jika elemen tersebut sama dengan nilai yang dicari (cari), maka nilai frek akan ditambah satu. Setelah seluruh elemen diperiksa, program mencetak hasil jumlah kemunculan angka tersebut di array menggunakan fmt.Printf
@@ -407,7 +407,7 @@ func main() {
 ```
 
 > Output
-> ![[Modul_7_Array/output/soal3.png]]
+> ![](output/soal3.png)
 
 Program diatas adala digunakan untuk menyimpan nama nama klub yang menang dan draw, kita masuk ke alur program pertama deklreasikan variable klubA dan klubB untuk inputan user atau nama club nya ,lanjut kita juga deklerasikan variable skor untuk menampung skor kedua klub, selanjutanya kita juga deklerasikann array kosong untuk menyimpan hasil ke dalam array dan kita juga butuh pertandingan untuk nanti count pertandingan 1 hingga n , lanjut kita ke repeat until dimana terdapat inputan score , kemudia kita punya logika if logikanya jika klubA memiliki skor lebih besar dari klubB  simpan / slice klubA ke array hasil  sebaliknya juga jika klubB lebih besar simpan, kalau sama sama besar akan menampilkan draw, dan pertandingan ++ setiap perulangan.lanjuta yang terakhir for nya digunakan untuk menampilkan hasil draw atau menang 
 
@@ -548,7 +548,7 @@ func main() {
 ```
 
 > Output
-> ![[Modul_7_Array/output/soal4.png]]
+> ![](output/soal4.png)
 
 Program ini sebenarnya digunakan buat ngecek apakah input karakter itu palindrom atau bukan, terus juga nampilin bentuk teks awal dan teks yang sudah dibalik. Jadi, alurnya kayak gini:
 Pertama, kita deklarasi dulu konstanta NMAX yang artinya jumlah maksimum karakter yang bisa ditampung (di sini 127). Terus kita bikin tipe data tabel yang isinya array of `rune`, karena kita mau simpan karakter satu-satu.Di bagian fungsi isiArray, program minta user masukin karakter satu per satu dan diakhiri dengan titik (`.`). Karakter yang dimasukin bakal disimpan ke dalam array `tabel`. Setiap kali input karakter, variabel `n` yang ngitung jumlah karakter akan ditambah.
