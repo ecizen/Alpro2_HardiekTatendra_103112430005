@@ -88,7 +88,7 @@ func main() {
 ```
 
 > Output
-> ![[modul_10/output/soal1.png]]
+> ![](output/soal1.png)
 
 Program di atas digunakan untuk mencari berat terkecil dan terbesar, untuk alogirtma nya sebagai beriikut. pertama saya punya constant yang menampung max elemen array yang dapat ditampung, lanjut tipe constant tadi kita gunakan di tipe bentukan array berat kelinci. Masuk ke prgoram utama kita deklerasikan N untuk jumlah kelinci nya dan variable MIN, MAX , kemudian perlu input N untuk jumlah anak kelinci nya, selaanjutnya saya punya variable berat dengan menggunakan tipe data bentukan tadi masuk ke for loop seperti biasa, masuk ke logika if apabila kondisi terpenuhi jika i == 0 artinya jumlah klinci 0 maka tidak adaa input user maka blok kode dijalankan max dan min 0, jika kondisi i == 0 tidak terpenuhi maka masuk ke else dengan dua kondisi jika element array berat < Min artinya berat array i adalah min ya dan sebaliknya jika berat array[i] lebih besar maka itu Max nya  
 
@@ -184,7 +184,7 @@ func main() {
 ```
 
 > Output
-> ![[modul_10/output/soal2.png]]
+> ![](output/soal2.png)
 
 Program di atas digunakan untuk menghitung total berat ikan di setiap wadah dan juga menghitung rata-rata berat antar wadah. Untuk algoritmanya, sebagai berikut:  
 Pertama saya punya const maxArray untuk menentukan kapasitas maksimal array yang bisa digunakan, yaitu 1000 elemen. Lalu saya deklarasikan dua array, yaitu beratIkan untuk menampung semua data berat ikan yang akan dimasukkan, dan totalWadah untuk menampung total berat ikan di tiap wadah.Masuk ke bagian utama program `main`, saya deklarasikan dua buah variabel `x` dan `y`. x untuk menyatakan jumlah ikan yang akan dijual, dan `y` untuk kapasitas satu wadah (berapa ikan bisa masuk ke satu wadah). Kedua nilai ini kita input lewat fmt.Scan.Selanjutnya saya punya perintah for untuk input berat ikan sebanyak `x` kali. Nilai-nilai berat tersebut disimpan dalam array beratIka.Kemudian untuk menentukan berapa jumlah wadah yang dibutuhkan, saya gunakan pembagian x / y, tapi karena bisa saja jumlah ikan tidak habis dibagi kapasitas wadah, maka saya tambahkan pengecekan:  if x % y != 0, artinya jika ada sisa, maka wadah ditambah satu agar semua ikan tetap masuk.Lanjut ke proses pengisian wadah, saya looping lagi sebanyak jumlah ikan x, lalu saya hitung indeks wadah dari setiap ikan berdasarkan i / y, artinya setiap y ikan masuk ke wadah berikutnya. Total berat di masing-masing wadah dijumlahkan ke dalam array totalWadah.Setelah selesai, saya tampilkan semua total berat per wadah dengan fmt.Printf sebanyak jumlah wadah yang sudah dihitung.Terakhir, untuk menghitung rata-rata berat per wadah, saya jumlahkan semua isi dari totalWadah kemudian dibagi dengan jumlah wadah, hasilnya ditampilkan sebagai rata-rata.
@@ -291,6 +291,6 @@ func main() {
 ```
 
 > Output
-> ![[modul_10/output/soal3.png]]
+> ![](output/soal3.png)
 
 Program diatas adalah program untuk mencari berat bealita terkecil dan terbesar serta rataan, pertama  kita punya procedure hitungMax dengan parameter arrBalita dengan tipe bentukan arrBalita lalu kita pointer kan , lanjut ke parameter bMin,Bmax  tipe data float64, kemudian N untuk jumlah balita, masuk ke forloop ini mirp seperti no1 satu logic nya jika i == 0 maka max dan min nya 0, jika kondisi i == 0 tidak terpenuhi masuk ke blok kode else dengan if jika arraBalita[i] lebih kecil dari bMin maka itu adalah nilai min nya dan sebaliknya jika arrBalita[i] lebih besar dari max sebelumnya maka arrBalita itulah menjadi nilai Max. lanjut ke fungsi rataan dengan parameter arrBalita dan N dan fungsi ini mengembalikan float64 . Pertama kita buat kondisi dulu jika 0 maka akan mengembalikan 0, lanjut tentukan nilai total awal 0.0 lanjut ke for saat perulangan dijalankan maka total += arrBalita[i] akan bertambah sesuai yg diinput user , kemudian total tadi kita bagi dengan jumlah N nya atau total balita nya  lalu kembalikan nilai. Masuk prgogram utama kita perlu deklerasikan variable arrBalita dengan tipe data bentukan, N dengan tipe data integer dan MAX/MIN float64 atau real, lanjut kita tinggal panggil fungsi dan procedure nya.untuk  
