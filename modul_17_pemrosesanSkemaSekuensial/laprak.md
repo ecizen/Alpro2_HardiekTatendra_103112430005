@@ -64,7 +64,7 @@ func main() {
 ```
 
 > Output
-> ![[guided.png]]
+>  ![](output/guided.png)
 
 Program diatas digunakan untuk melakukan bubble short.Pertama masuk ke fungsi bubbleshort yg menerima array integer sebagai parameter fungsi ini mengembalikan dua nilai cobashorted hasil array yg sudah diurutkan  totalswap adalah total berapa kali menukar pertama inisialsasi  n dengan len(arr) artinya panjang array nya  for luar digunakan untuk melakukan jumlah pass nya kemudian for j digunakan untuk proses membandingkan, kenapa j-i-1? Karena setiap akhir putaran, elemen terbesar sudah "bubble" ke akhir array, jadi tidak perlu dicek lagi. masuk ke if dimana kondisi jika array ke j lebih besar dibanding dari elemen birkutnya j+1 maka tukar atau swap posisinya dan jika kondisi terpenuhi totalswapcount bertambah 1 kemudian return untuk mengembalikan nilai. Masuk program utama disini syaa mendefinisikan isiData untuk menampung array panggil fungsi  bubbleshort lalu Menyimpan hasil sortir dan jumlah swap ke variabel sortedValues dan swapCount lalu print output nya
 ## Unguided
@@ -134,7 +134,7 @@ func main() {
 ```
 
 > Output
-> ![[modul_17_pemrosesanSkemaSekuensial/output/output1.png]]
+>  ![](output/output1.png)
 
 Program di atas digunakan untuk mencari rataar dengan diakhiri marker 9999. Pertama tama saya punya variable total nilai yg digunakan untuk menampung nilai yg di input user, kemudian ada variable num yang digunakan untuk input user nantinya dan  terakhir ada variable count dimana count ini adalah jumlah berapa kali user input misal ketika user input ini nanti nya count akan bertambah  1 1 terus hingga user menginput marker 9999. lanjut saya punya perulangan dimana pada blok baris pertama itu input num , selanjutnya ada percabangan dimana untuk mengakhiri marker dengan value 9999 , selanjutnya ada total += num artinya yaitu setiap num yg di input user akan terus ditambah dan disimpan di total lanjut ke if selanjutnya disini terdapat kondisi jika count > 0 artinya ada data yg di input user yg artinya wajib ada jika kondisii  terepenuhi maka  total input user tadi kita bagi dengan count yaitu berapa kali menginput
 
@@ -253,7 +253,7 @@ func toYaTidak(b bool) string {
 ```
 
 > Output
-> ![[modul_17_pemrosesanSkemaSekuensial/output/output2.png]]
+> ![](output/output2.png)
 
 Program ini dibuat untuk mencari string `x` dalam kumpulan data string yang dimasukkan oleh pengguna. Pertama-tama, kita diminta untuk memasukkan string `x`, yang merupakan string yang akan dicari, dan jumlah data string `n`, yang menyatakan berapa banyak data string yang akan dimasukkan selanjutnya. Setelah itu, program akan meminta kita untuk memasukkan `n` buah string yang akan diperiksa apakah ada yang cocok dengan string `x`.
 Di dalam program, ada beberapa variabel yang dideklarasikan: `x` untuk menampung string yang dicari, `n` untuk jumlah data string, `data` yang digunakan untuk menyimpan string-string yang dimasukkan, `found` untuk menandakan apakah string `x` ditemukan atau tidak, `positions` untuk menyimpan posisi-posisi string `x` ditemukan, dan `count` untuk menghitung berapa kali string `x` muncul.Setelah itu, program akan meminta kita untuk memasukkan `n` string, dan setiap string yang dimasukkan akan disimpan ke dalam array `data`. Program kemudian akan memeriksa setiap string yang dimasukkan, apakah ada yang cocok dengan string `x`. Kalau ada, program akan menyimpan posisi string tersebut di array `positions` dan menambahkan angka ke dalam `count` yang menunjukkan berapa kali string `x` muncul.
@@ -341,7 +341,7 @@ func main() {
 ```
 
 > Output
-> ![[modul_17_pemrosesanSkemaSekuensial/output/output3.png]]
+> ![](output/output3.png)
 
 Program diatas adalah program untuk mencari curah hujan pertama saya punya variable n menyimpan air hujan yg akan dihitung , a,b,c,d kemudian a,b,c,d ini kita inisialisasi  dengan nilai awal 0 semua, selanjutnya masuk ke for  Pada bagian ini, kita menggunakan perulangan `for` untuk menghasilkan `n` titik acak dengan koordinat `(x, y)`. Fungsi `rand.Float64()` menghasilkan angka acak real antara 0 dan 1, yang digunakan untuk menentukan posisi titik dalam ruang koordinat (0, 0) hingga (1, 1).
  Kemudian, berdasarkan nilai `x` dan `y`, kita menentukan titik tersebut jatuh di daerah mana:
@@ -443,7 +443,7 @@ func main() {
 ```
 
 > Output
-> ![[output4.png]]
+> ![](output/output4.png)
 
 
 Program ini digunakan untuk menghitung nilai π dengan menggunakan deret Leibniz. Pertama, saya minta input dari pengguna berupa jumlah suku maksimum yang ingin dihitung, yang disimpan dalam variabel n. Lalu, saya inisialisasi beberapa variabel, seperti sukuSekarang untuk menyimpan nilai suku yang sedang dihitung, sukuBerikut untuk menyimpan nilai suku berikutnya, dan pi untuk menyimpan total perhitungan nilai π yang sementara. Di dalam perulangan, program akan menghitung setiap suku dengan memeriksa apakah indeks suku tersebut ganjil atau genap. Jika indeksnya ganjil, suku yang dihitung adalah 1/angka ganjil, dan jika indeksnya genap, suku yang dihitung adalah negatif 1/angka ganjil. Setiap suku yang dihitung akan ditambahkan ke variabel pi, yang pada akhirnya akan dikalikan 4 untuk memperoleh nilai π yang diperkirakanSelama perulangan, program juga memeriksa selisih antara suku yang sekarang (sukuSekarang) dan suku berikutnya (sukuBerikut). Jika selisihnya sudah sangat kecil (kurang dari 0.00001), maka perulangan akan berhenti, karena hasilnya sudah cukup mendekati nilai π. Program kemudian menampilkan dua hasil nilai π: yang pertama berdasarkan suku terakhir yang dihitung, dan yang kedua dengan menambahkan suku berikutnya. Program juga akan mencetak informasi tentang jumlah iterasi (i) yang dibutuhkan sebelum perbedaan antar suku menjadi sangat kecil. Sebagai contoh, jika input adalah 1.000.000 suku, hasil yang ditampilkan mungkin sekitar 3.1415826536 dan 3.1415976535, yang menunjukkan hasil yang mendekati nilai π setelah beberapa iterasi.
@@ -513,7 +513,7 @@ func main() {
 ```
 
 > Output
-> ![[output5.png]]
+>  ![](output/output5.png)
 
 
 Program ini digunakan untuk menghitung jumlah toping pizza pertama tama saya punya menginisialisasi rand.send sebagai bilangan acak nya lanjut ada variable toppingCount untuk menampung jumlah toping kemudian input toping dan  toppingOnPizza untuk menghitung berapa topping yg tepat jatuh diatas pizza. masuk ke perulangan ini berjalan ketika i kurang dari topingCount yaitu jumlah toping yg ingin ditaburkan, setiap kali ditaburkan  dua bilangan acak x dan y menggunakan rand atau random ini mewakili posisi acak dari sebuah topping dalam kotak dengan panjang sisi 1 (dari koordinat (0,0) ke (1,1)).Kemudian, kondisi (x-0.5)*(x-0.5)+(y-0.5)*(y-0.5) <= 0.25 memeriksa apakah titik `(x, y)` berada di dalam lingkaran dengan pusat di (0.5, 0.5) dan radius 0.5, yang merepresentasikan pizza. Ini adalah persamaan lingkaran yang digunakan untuk memeriksa apakah topping berada di dalam pizza.Jika kondisi ini benar, maka topping tersebut dihitung sebagai jatuh di atas pizza dan variabel toppingOnPizza akan bertambah 1.Setelah perulangan selesai, program akan mencetak jumlah topping yang jatuh tepat di atas pizza. kemudian masuk ke formula yg disediakan dan kita print pi nya
